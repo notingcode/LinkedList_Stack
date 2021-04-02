@@ -10,18 +10,19 @@ void prnMenu(){
 }
 
 int main(){
-	    int mode, selectNumber, tmpItem;
-		LinkedList<int> *p;
+	    	int mode, selectNumber;
+	    	double tmpItem;
+		LinkedList<double> *p;
 		bool flag = false;
 
 		cout<<"자료구조 선택(1: Stack, Other: Linked List): ";
 		cin>>mode;
 						    
 		if(mode == 1)
-			p = new Stack<int>();    // 정수를 저장하는 스택
+			p = new Stack<double>();    // 정수를 저장하는 스택
 			
 		else
-			p = new LinkedList<int>();
+			p = new LinkedList<double>();
 
 
 		do{
